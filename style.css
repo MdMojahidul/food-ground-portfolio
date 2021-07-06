@@ -21,7 +21,7 @@ nav ul {
 }
 nav ul li{
     display: inline-block;
-    line-height: 52px;
+    line-height: 50px;
     margin: 0 5px;
     
 }
@@ -84,7 +84,7 @@ h3{
 }
 .recipies{
     padding: 20px 20px;
-    width: 50%;
+    width: 100%;
     text-align: center;
     
 }  
@@ -107,6 +107,7 @@ h3{
 }
 .section3-width img{
     width: 80%;  
+    background-origin: 5px 5px 10px;x
 }
 #img-border{
     padding: 17px;
