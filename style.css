@@ -2,13 +2,37 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-header{
-   background-image: linear-gradient(maroon,rgb(123, 123, 204));
-    width: 100%;
-    text-decoration: none;
-    height: 75px;   
-    color:white;
+.header-point{
+   padding: 0;
+   margin: 0;
+   text-decoration:none;
+   list-style: none;
+   box-sizing: border-box;
+   
 }
+nav {
+    background: tomato;
+    height: 75px;
+    width: 100%;
+}
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 52px;
+    margin: 0 5px;
+    
+}
+nav ul li a {
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    
+}
+
+
 #name-color{
     color: gold;
 }
@@ -59,22 +83,11 @@ h3{
     padding-top:10px;
 }
 .recipies{
-    padding-right: 40px;
+    padding: 20px 20px;
     width: 50%;
     text-align: center;
-    margin-right: auto;
-    text-align:right:
-}
-.text-center{
-    text-align: center;
-    padding-left: 200px;
-   
-}
-#padding{
-    padding: 10px;
-}
-
     
+}  
 .section2-width img{
     width: 40%;   
 }
@@ -84,7 +97,7 @@ h3{
     padding: 20px;
     margin-left: 10px;
     margin-right: 10px;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 10px 10px 15px goldenrod;
 }
 .recipies-name{
